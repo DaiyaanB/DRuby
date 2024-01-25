@@ -15,3 +15,9 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+Dice_1 = rand(1...6)
+Dice_2 = rand(1...6)
+SumDice = Dice_1+Dice_2
+Craps = "Your first die was #{Dice_1} and your second die was #{Dice_2} for a result of #{SumDice}"
+puts Craps

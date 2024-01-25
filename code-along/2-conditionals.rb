@@ -6,6 +6,12 @@
 
 # Boolean Expressions
 
+if 1+1 == 2
+    puts "This is true"
+end
+if 1+1 == 3
+    puts "You should never see this"
+end
 # If Conditional Logic
 
 # If/Else Conditional Logic

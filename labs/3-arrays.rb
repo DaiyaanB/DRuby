@@ -15,3 +15,12 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+myList = ["milk","eggs"]
+herList = ["pizza","eggs"]
+sharedList = myList + herList
+sharedList = sharedList.uniq
+sharedList = sharedList.sort
+sharedList.each {|a| print "Buy ", a, "
+"}
+

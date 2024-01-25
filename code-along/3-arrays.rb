@@ -10,3 +10,14 @@
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#favorite foods
+favorite_foods = ["tacos","pizza","ice cream"]
+bens_foods = ["kale","sticks","berries"]
+#puts favorite_foods[0]
+
+favorite_foods << "burgers"
+#puts favorite_foods
+
+combined_favorites = [favorite_foods,bens_foods]
+puts combined_favorites[0]
